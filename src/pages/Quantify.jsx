@@ -3,7 +3,7 @@
 const Quantify = () => {
 
   return (
-    <div className="pt-20 min-h-full bg-[#0F111D] text-white flex flex-col items-center px-4 py-6">
+    <div className="pt-20 min-h-screen bg-[#0F111D] text-white flex flex-col items-center px-4 py-6">
       {/* Top Image */}
       <img
         src="https://media.istockphoto.com/id/879153690/photo/bitcoin-on-a-led-technological-light-surface.jpg?s=612x612&w=0&k=20&c=0m9mJ4DFXcU9UPBi9b3XxKqoeANT343Yn3Atx1pHmMs="

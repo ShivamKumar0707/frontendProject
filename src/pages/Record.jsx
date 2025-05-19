@@ -50,8 +50,9 @@ const Record = () => {
 
   return (
     <>
-      <div className="p-6">
-        <h1 className="text-2xl font-bold mb-4">Transaction Records</h1>
+   
+      <div className="p-6 w-full max-w-[430px] h-screen  overflow-hidden shadow-2xl ">
+        <h1 className="text-2xl font-bold mb-4 text-white">Transaction Records</h1>
 
         {/* Tabs */}
         <div className="flex space-x-4 mb-6">
@@ -75,11 +76,11 @@ const Record = () => {
           <table className="min-w-full text-sm text-left text-gray-700">
             <thead className="bg-gray-400">
               <tr>
-                <th className="px-6 py-3">ID</th>
-                <th className="px-6 py-3">Type</th>
-                <th className="px-6 py-3">Amount</th>
-                <th className="px-6 py-3">Date</th>
-                <th className="px-6 py-3">Status</th>
+                <th className="px-3 py-3">ID</th>
+                <th className="px-3 py-3">Type</th>
+                <th className="px-3 py-3">Amount</th>
+                <th className="px-3 py-3">Date</th>
+                <th className="px-3 py-3">Status</th>
               </tr>
             </thead>
             <tbody>
@@ -87,7 +88,7 @@ const Record = () => {
                 <tr>
                   <td
                     colSpan="5"
-                    className="text-center px-6 py-4 text-gray-500"
+                    className="text-center px-3 py-4 text-gray-500"
                   >
                     No transactions found.
                   </td>
@@ -95,12 +96,12 @@ const Record = () => {
               ) : (
                 filteredData.map((tx) => (
                   <tr key={tx.id} className="border-b hover:bg-gray-50">
-                    <td className="px-6 py-4">{tx.id}</td>
-                    <td className="px-6 py-4">{tx.type}</td>
-                    <td className="px-6 py-4">₹{tx.amount}</td>
-                    <td className="px-6 py-4">{tx.date}</td>
+                    <td className="px-3 py-4">{tx.id}</td>
+                    <td className="px-3 py-4">{tx.type}</td>
+                    <td className="px-3 py-4">₹{tx.amount}</td>
+                    <td className="px-3 py-4">{tx.date}</td>
                     <td
-                      className={`px-6 py-4 font-medium ${getStatusColor(
+                      className={`px-3 py-4 font-medium ${getStatusColor(
                         tx.status
                       )}`}
                     >

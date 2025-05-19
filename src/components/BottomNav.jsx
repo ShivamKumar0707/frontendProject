@@ -37,7 +37,7 @@ const navItems = [
 
 const BottomNav = ({ active, setActive }) => {
   return (
-    <div className="h-14 w-full max-w-[430px] h-full bg-[#181c2e] border-t border-gray-700 flex items-center justify-around">
+    <div className="h-14 w-full max-w-[430px]  bg-[#181c2e] border-t border-gray-700 flex items-center justify-around">
       {navItems.map(item => (
         <button
           key={item.key}
