@@ -28,11 +28,7 @@ const LoginRegisterModal = ({ onClose }) => {
         
         {/* Close Button */}
         <button onClick={onClose} className="absolute top-3 right-3 z-10">
-          {/* <img
-            src="https://img.icons8.com/ios-filled/50/000000/delete-sign.png"
-            alt="Close"
-            className="w-5 h-5"
-          /> */}
+        
           <p className="w-7 text-red-800 font-bold">X</p>
         </button>
 
