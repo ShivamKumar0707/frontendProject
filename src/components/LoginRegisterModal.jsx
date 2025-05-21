@@ -23,8 +23,8 @@ const LoginRegisterModal = ({ onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-      <div className="w-[380px] bg-white rounded-lg shadow-lg overflow-hidden relative">
+    <div className="fixed inset-0 max-w-[430px] bg-black bg-opacity-40 flex items-center justify-center z-50">
+      <div className="w-[380px] max-w-[430px] bg-white rounded-lg shadow-lg overflow-hidden relative">
         
         {/* Close Button */}
         <button onClick={onClose} className="absolute top-3 right-3 z-10">

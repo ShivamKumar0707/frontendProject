@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <div className=" w-full h-screen bg-gray-800 flex items-center justify-center pt-15">
       {/* Mobile Container  max-w-[430px]*/}
-      <div className="w-full  h-full bg-[#0d0f1c] text-white flex flex-col overflow-hidden shadow-2xl">
+      <div className="w-full  max-w-[430px]  h-full bg-[#0d0f1c] text-white flex flex-col overflow-hidden shadow-2xl">
         
         {/* Scrollable Content */}
         <div className="flex-1 overflow-y-auto p-4 space-y-4">

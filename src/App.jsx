@@ -23,7 +23,7 @@ const App = () => {
   };
 
   return (
-    <div className=" w-full  h-full relative min-h-screen pb-2 bg-[#121525] ">
+    <div className=" w-full max-w-[430px] h-full relative min-h-screen pb-2 bg-[#121525] ">
       {/* User Icon */}
       <div className="absolute top-4 right-4 pt-2 m-1">
       <button onClick={() => setShowModal(true)} className="text-1xl font-bold px-1 py-2 leading-none  border border-red-300 rounded-sm focus:shadow-outline bg-gradient-to-b hover:from-indigo-500 from-blue-300 '">🎧</button>

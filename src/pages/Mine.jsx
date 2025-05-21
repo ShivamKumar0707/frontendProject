@@ -13,7 +13,7 @@ const Mine = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0F111D] text-white p-4 flex flex-col items-center mt-15">
+    <div className="min-h-screen  max-w-[430px] bg-[#0F111D] text-white p-4 flex flex-col items-center mt-15">
       {/* My Information */}
       <h2 className="text-lg text-gray-200 font-semibold mb-3">My information</h2>
       <img  className="w-24 h-24 rounded-full bg-gradient-to-r from-[#4e4e6a] to-[#8383a1] border-2 border-cyan-400 mb-3" src="https://media.istockphoto.com/id/1288129985/vector/missing-image-of-a-person-placeholder.jpg?s=612x612&w=0&k=20&c=9kE777krx5mrFHsxx02v60ideRWvIgI1RWzR1X4MG2Y=" alt="" />

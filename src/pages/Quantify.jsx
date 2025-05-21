@@ -12,7 +12,7 @@ const Quantify = () => {
       />
 
       {/* Start Quantifying Button */}
-      <button className=" w-full bg-gradient-to-r from-[#676cc8] to-[#3e417b] text-white font-medium py-3 px-6 rounded-xl mb-6 shadow-md">
+      <button className=" w-full max-w-[430px] bg-gradient-to-r from-[#676cc8] to-[#3e417b] text-white font-medium py-3 px-6 rounded-xl mb-6 shadow-md">
         Start quantifying
       </button>
 
