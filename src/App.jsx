@@ -23,6 +23,7 @@ const App = () => {
   };
 
   return (
+    <div className='flex justify-center w-full h-full bg-[#121525]'>
     <div className=" w-full max-w-[430px] h-full relative min-h-screen pb-2 bg-[#121525] ">
       {/* User Icon */}
       <div className="absolute top-4 right-4 pt-2 m-1">
@@ -40,6 +41,7 @@ const App = () => {
 
       {/* Bottom Navigation */}
       <BottomNav active={activePage} setActive={setActivePage} />
+    </div>
     </div>
   );
 };
