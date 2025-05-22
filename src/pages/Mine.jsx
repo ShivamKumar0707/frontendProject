@@ -2,14 +2,14 @@
 
 const Mine = () => {
   const buttons = [
-    { label: "Recharge", icon: "💰" },
-    { label: "Withdraw", icon: "🤲" },
+    { label: "Recharge", icon: "R" },
+    { label: "Withdraw", icon: "⬅" },
     { label: "Bind card", icon: "💳" },
     { label: "Fund", icon: "🗂️" },
-    { label: "Password", icon: "🔒" },
-    { label: "Language", icon: "🌐" },
-    { label: "Service", icon: "📖" },
-    { label: "Team", icon: "👥" },
+    { label: "Password", icon: "🗝" },
+    { label: "Language", icon: "📓" },
+    { label: "Service", icon: "🛠" },
+    { label: "Team", icon: "👨‍👦‍👦" },
   ];
 
   return (
@@ -20,7 +20,7 @@ const Mine = () => {
       {/* UID */}
       <div className="flex items-center space-x-2 mb-6">
         <p className="text-md text-white font-medium">UID:123456</p>
-        <button className="text-yellow-300 text-lg">📋</button>
+        <button className="text-yellow-300 text-lg"></button>
       </div>
 
       {/* Icon Buttons Grid */}
@@ -38,7 +38,7 @@ const Mine = () => {
       {/* My Wallet Section */}
       <div className="bg-[#1C1E2F] w-full rounded-xl p-4 shadow-md">
         <div className="flex items-center text-sm text-gray-300 mb-3">
-          <span className="mr-2 text-lg">👛</span>
+          <span className="mr-2 text-lg">🛍</span>
           My wallet
         </div>
         <div className="grid grid-cols-2 gap-y-3 text-sm text-gray-200">

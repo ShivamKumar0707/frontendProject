@@ -25,7 +25,7 @@ const Quantify = () => {
       <div className="grid grid-cols-2 gap-4 w-full">
         <div className="bg-[#1c1e2f] rounded-xl p-4 shadow-lg flex flex-col items-center">
           <h2 className="text-xl text-cyan-300 font-bold">0.00</h2>
-          <p className="text-sm text-gray-300 mt-1">📅 Total revenue</p>
+          <p className="text-sm text-gray-300 mt-1">🔄 Total revenue</p>
         </div>
         <div className="bg-[#1c1e2f] rounded-xl p-4 shadow-lg flex flex-col items-center">
           <h2 className="text-xl text-cyan-300 font-bold">6%</h2>
@@ -33,7 +33,7 @@ const Quantify = () => {
         </div>
         <div className="bg-[#1c1e2f] rounded-xl p-4 shadow-lg flex flex-col items-center">
           <h2 className="text-xl text-cyan-300 font-bold">0.00</h2>
-          <p className="text-sm text-gray-300 mt-1">💰 Balance</p>
+          <p className="text-sm text-gray-300 mt-1">💲 Balance</p>
         </div>
         <div className="bg-[#1c1e2f] rounded-xl p-4 shadow-lg flex flex-col items-center">
           <h2 className="text-xl text-cyan-300 font-bold">0</h2>

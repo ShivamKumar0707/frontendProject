@@ -1,11 +1,11 @@
 
 
 const navItems = [
-  { key: "home", label: "Home", icon: "🏠" },
-  { key: "record", label: "Record", icon: "📑" },
-  { key: "quantify", label: "Quantify", icon: "¥" },
-  { key: "team", label: "Team", icon: "👥" },
-  { key: "mine", label: "Mine", icon: "🙋‍♂️" },
+  { key: "home", label: "Home", icon: "🏡" },
+  { key: "record", label: "Record", icon: "📖" },
+  { key: "quantify", label: "Quantify", icon: "💸" },
+  { key: "team", label: "Team", icon: "👨‍👦‍👦" },
+  { key: "mine", label: "Mine", icon: "😊" },
 ];
 
 const BottomNav = ({ active, setActive }) => {

@@ -51,9 +51,10 @@ const Home = () => {
       </button>
     </div>
     <img
-      src="..\src\assets\ai-generated-birthday-gift-box-free-png.webp"
+      // src="..\src\assets\ai-generated-birthday-gift-box-free-png.webp"
+      src="https://e7.pngegg.com/pngimages/766/288/png-clipart-gift-gift-miscellaneous-ribbon.png"
       alt="gift"
-      className="w-12 h-12"
+      className="w-12 h-12 rounded-full"
     />
   </div>
 
