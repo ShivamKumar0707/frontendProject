@@ -25,19 +25,19 @@ const Quantify = () => {
       <div className="grid grid-cols-2 gap-4 w-full">
         <div className="bg-[#1c1e2f] rounded-xl p-4 shadow-lg flex flex-col items-center">
           <h2 className="text-xl text-cyan-300 font-bold">0.00</h2>
-          <p className="text-sm text-gray-300 mt-1">🔄 Total revenue</p>
+          <p className="text-sm flex text-gray-300 mt-1"><img src="https://img.icons8.com/?size=100&id=66098&format=png&color=000000" alt="" width="15px" className="mr-1"/>Total revenue</p>
         </div>
         <div className="bg-[#1c1e2f] rounded-xl p-4 shadow-lg flex flex-col items-center">
           <h2 className="text-xl text-cyan-300 font-bold">6%</h2>
-          <p className="text-sm text-gray-300 mt-1">📈 Trading Profit</p>
+          <p className="text-sm flex text-gray-300 mt-1"><img src="https://img.icons8.com/?size=100&id=BbOrULnLJvkY&format=png&color=000000" alt="" width="15px" className="mr-1"/> Trading Profit</p>
         </div>
         <div className="bg-[#1c1e2f] rounded-xl p-4 shadow-lg flex flex-col items-center">
-          <h2 className="text-xl text-cyan-300 font-bold">0.00</h2>
-          <p className="text-sm text-gray-300 mt-1">💲 Balance</p>
+          <h2 className="text-xl  text-cyan-300 font-bold">0.00</h2>
+          <p className="text-sm flex text-gray-300 mt-1"><img src="https://img.icons8.com/?size=100&id=Glsn3RogkMJq&format=png&color=000000" alt="" width="25px" /> Balance</p>
         </div>
         <div className="bg-[#1c1e2f] rounded-xl p-4 shadow-lg flex flex-col items-center">
           <h2 className="text-xl text-cyan-300 font-bold">0</h2>
-          <p className="text-sm text-gray-300 mt-1">+ Today's earnings</p>
+          <p className="text-sm flex text-gray-300 mt-1"><img src="https://img.icons8.com/?size=100&id=7jhtnMWdpEf1&format=png&color=000000" alt="" width="15px" className="mr-1"/> Today's earnings</p>
         </div>
       </div>
     </div>

@@ -2,14 +2,14 @@
 
 const Mine = () => {
   const buttons = [
-    { label: "Recharge", icon: "R" },
-    { label: "Withdraw", icon: "⬅" },
-    { label: "Bind card", icon: "💳" },
-    { label: "Fund", icon: "🗂️" },
-    { label: "Password", icon: "🗝" },
-    { label: "Language", icon: "📓" },
-    { label: "Service", icon: "🛠" },
-    { label: "Team", icon: "👨‍👦‍👦" },
+    { label: "Recharge", icon: "https://img.icons8.com/?size=100&id=20043&format=png&color=000000" },
+    { label: "Withdraw", icon: "https://img.icons8.com/?size=100&id=rEUVwsj9R7SJ&format=png&color=000000" },
+    { label: "Bind card", icon: "https://img.icons8.com/?size=100&id=aMTIdm5CdddP&format=png&color=000000" },
+    { label: "Fund", icon: "https://img.icons8.com/?size=100&id=pHEbDnllVT05&format=png&color=000000" },
+    { label: "Password", icon: "https://img.icons8.com/?size=100&id=OOZ03zZyUcSR&format=png&color=000000" },
+    { label: "Language", icon: "https://img.icons8.com/?size=100&id=j2D-17SBxXAJ&format=png&color=000000" },
+    { label: "Service", icon: "https://img.icons8.com/?size=100&id=103938&format=png&color=000000" },
+    { label: "Team", icon: "https://img.icons8.com/?size=100&id=XSKaab5OUh4a&format=png&color=000000" },
   ];
 
   return (
@@ -28,7 +28,7 @@ const Mine = () => {
         {buttons.map((btn, idx) => (
           <div key={idx} className="flex flex-col items-center text-sm">
             <div className="w-14 h-14 rounded-full bg-gradient-to-br from-[#4e4e6a] to-[#a8947a] flex items-center justify-center text-2xl">
-              {btn.icon}
+              <img src={btn.icon} alt="" width="40px"/>
             </div>
             <p className="text-gray-200 mt-2">{btn.label}</p>
           </div>
@@ -38,7 +38,7 @@ const Mine = () => {
       {/* My Wallet Section */}
       <div className="bg-[#1C1E2F] w-full rounded-xl p-4 shadow-md">
         <div className="flex items-center text-sm text-gray-300 mb-3">
-          <span className="mr-2 text-lg">🛍</span>
+          <img src="https://img.icons8.com/?size=100&id=105173&format=png&color=000000" alt="" width="15px" className="mr-1" />
           My wallet
         </div>
         <div className="grid grid-cols-2 gap-y-3 text-sm text-gray-200">

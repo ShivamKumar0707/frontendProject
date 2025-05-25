@@ -53,7 +53,7 @@ const LoginRegisterModal = ({ onClose }) => {
                 : "text-gray-400"
             }`}
           >
-            📱 phone number
+            phone number
           </button>
           <button
             onClick={() => setTab("email")}
@@ -71,7 +71,7 @@ const LoginRegisterModal = ({ onClose }) => {
         <div className="px-5 py-6 space-y-4 bg-[#f6f6f6]">
           {tab === "phone" ? (
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">📱 Phone number</label>
+              <label className="block text-sm font-medium text-gray-700 mb-1"> Phone number</label>
               <div className="flex gap-2">
                 <select
                   name="countryCode"
@@ -108,7 +108,7 @@ const LoginRegisterModal = ({ onClose }) => {
           )}
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">🔒 Password</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1"> Password</label>
             <div className="relative">
               <input
                 type="password"
